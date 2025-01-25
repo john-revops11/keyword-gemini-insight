@@ -155,7 +155,7 @@ export const ExcelUpload = () => {
       />
       <Button 
         variant="default" 
-        className="w-full bg-primary hover:bg-primary/90 text-white"
+        className="w-full bg-primary hover:bg-primary/90 text-white bg-green"
         disabled={isUploading}
       >
         <Upload className="w-4 h-4 mr-2" />
