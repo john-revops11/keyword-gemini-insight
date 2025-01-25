@@ -44,7 +44,7 @@ const Index = () => {
             <div className="flex items-center justify-between">
               <div className="space-y-1">
                 <h1 className="text-3xl font-bold tracking-tight">Dashboard</h1>
-                <p className="text-muted-foreground">
+                <p className="text-sm text-secondary">
                   Welcome to your SEO tools dashboard
                 </p>
               </div>
@@ -64,7 +64,7 @@ const Index = () => {
                         <CardTitle className="text-lg">{tool.name}</CardTitle>
                       </CardHeader>
                       <CardContent>
-                        <p className="text-sm text-muted-foreground">
+                        <p className="text-sm text-secondary">
                           {tool.description}
                         </p>
                         <a
